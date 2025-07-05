@@ -1,5 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import data from '@/data/data.json'
+console.log(data[0].title)
 
 export default function Home() {
   return (

@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Design Homepage",
+    "description": "Create wireframes and mockups for the new homepage.",
+    "startDate": "2025-07-01",
+    "dueDate": "2025-07-10",
+    "status": "In Progress",
+    "lead": "A",
+    "category": "Design",
+    "notes" : ["Note about task", "Another note about task", "A final note about task"]
+  },
+  {
+    "title": "Write Blog Post",
+    "description": "Draft a post about the latest product updates.",
+    "startDate": "2025-07-03",
+    "dueDate": "2025-07-07",
+    "status": "Not Started",
+    "lead": "B",
+    "category": "Content",
+    "notes" : ["Note about task", "Another note about task", "A final note about task"]
+  },
+  {
+    "title": "Code Review",
+    "description": "Review pull requests from the development team.",
+    "startDate": "2025-07-05",
+    "dueDate": "2025-07-06",
+    "status": "Complete",
+    "lead": "C",
+    "category": "Development",
+    "notes" : ["Note about task", "Another note about task", "A final note about task"]
+  },
+  {
+    "title": "Set Up Analytics",
+    "description": "Integrate Google Analytics into the marketing site.",
+    "startDate": "2025-07-02",
+    "dueDate": "2025-07-08",
+    "status": "In Progress",
+    "lead": "A",
+    "category": "Marketing",
+    "notes" : ["Note about task", "Another note about task", "A final note about task"]
+  },
+  {
+    "title": "QA Testing",
+    "description": "Perform final quality checks before product launch.",
+    "startDate": "2025-07-06",
+    "dueDate": "2025-07-12",
+    "status": "Not Started",
+    "lead": "B",
+    "category": "QA",
+    "notes" : ["Note about task", "Another note about task", "A final note about task"]
+  },
+  {
+    "title": "User Research",
+    "description": "Interview 5 users to gather feedback on the new feature.",
+    "startDate": "2025-07-01",
+    "dueDate": "2025-07-09",
+    "status": "Complete",
+    "lead": "C",
+    "category": "UX",
+    "notes" : ["Note about task", "Another note about task", "A final note about task"]
+  },
+  {
+    "title": "Backend API Refactor",
+    "description": "Improve performance and structure of backend endpoints.",
+    "startDate": "2025-07-04",
+    "dueDate": "2025-07-15",
+    "status": "In Progress",
+    "lead": "A",
+    "category": "Development",
+    "notes" : ["Note about task", "Another note about task", "A final note about task"]
+  },
+  {
+    "title": "Create Social Media Assets",
+    "description": "Design graphics for next week's LinkedIn and Instagram posts.",
+    "startDate": "2025-07-03",
+    "dueDate": "2025-07-05",
+    "status": "Not Started",
+    "lead": "B",
+    "category": "Marketing",
+    "notes" : ["Note about task", "Another note about task", "A final note about task"]
+  },
+  {
+    "title": "Internal Demo Prep",
+    "description": "Prepare slides and demo script for internal team meeting.",
+    "startDate": "2025-07-07",
+    "dueDate": "2025-07-09",
+    "status": "In Progress",
+    "lead": "C",
+    "category": "Operations",
+    "notes" : ["Note about task", "Another note about task", "A final note about task"]
+  },
+  {
+    "title": "Accessibility Audit",
+    "description": "Run automated and manual accessibility checks.",
+    "startDate": "2025-07-06",
+    "dueDate": "2025-07-11",
+    "status": "Not Started",
+    "lead": "A",
+    "category": "QA",
+    "notes" : ["Note about task", "Another note about task", "A final note about task"]
+  },
+  {
+    "title": "Onboarding Flow Update",
+    "description": "Add new steps to onboarding to highlight new features.",
+    "startDate": "2025-07-04",
+    "dueDate": "2025-07-10",
+    "status": "In Progress",
+    "lead": "B",
+    "category": "Product",
+    "notes" : ["Note about task", "Another note about task", "A final note about task"]
+  },
+  {
+    "title": "Security Patch Deployment",
+    "description": "Apply the latest security updates to production servers.",
+    "startDate": "2025-07-05",
+    "dueDate": "2025-07-06",
+    "status": "Complete",
+    "lead": "C",
+    "category": "IT",
+    "notes" : ["Note about task", "Another note about task", "A final note about task"]
+  },
+  {
+    "title": "Email Campaign Setup",
+    "description": "Build and schedule email marketing campaign.",
+    "startDate": "2025-07-08",
+    "dueDate": "2025-07-14",
+    "status": "Not Started",
+    "lead": "A",
+    "category": "Marketing",
+    "notes" : ["Note about task", "Another note about task", "A final note about task"]
+  },
+  {
+    "title": "Performance Testing",
+    "description": "Run load tests on staging environment.",
+    "startDate": "2025-07-09",
+    "dueDate": "2025-07-11",
+    "status": "In Progress",
+    "lead": "B",
+    "category": "QA",
+    "notes" : ["Note about task", "Another note about task", "A final note about task"]
+  },
+  {
+    "title": "Sprint Planning",
+    "description": "Plan tasks and priorities for Sprint 32.",
+    "startDate": "2025-07-10",
+    "dueDate": "2025-07-10",
+    "status": "Complete",
+    "lead": "C",
+    "category": "Product",
+    "notes" : ["Note about task", "Another note about task", "A final note about task"]
+  }
+]
