@@ -1,19 +1,27 @@
+"use client"
+//IMPORTs
 import data from '@/data/data.json'
 import taskListItem from '../taskListItem'
-console.log(data[0].title)
+import '@/app/styles/taskListItem.css';
+import { useState } from 'react';
 
-export default function tasks() {
-  const taskList = data.map((task) =>
+//Function Export
+export default function Tasks() {
 
-    <li>{taskListItem(task)}</li>
+// State Management
+const [selectedTask, setSelectedTask] = useState()
 
+
+  const taskList = data.map((task, index) =>
+    <div key={index} onClick={ () =>setSelectedTask(index)}>
+      {taskListItem(task, selectedTask, index)}
+      </div>
 )
-    
-  
+
   return(
   <>
-  {/* <ul>{taskListItem(data[0])}</ul> */}
-  <ul>{taskList}</ul>
+ <button onClick={console.log(selectedTask)}> TEST </button>
+  <section className='taskList'>{taskList}</section>
   </>
 )
 }

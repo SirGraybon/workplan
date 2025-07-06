@@ -1,8 +1,49 @@
-.taskListItem {
+
+.taskList {
+ 
+  width: 900px; 
+  align-items: center;
+  justify-content: center;
+} 
+
+
+
+.taskListHeader {
   display: flex;
-  max-width: fit-content;
-  margin: 25px;
-  padding: 10px;
+  justify-content: space-between;
+
+}
+.taskListInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+
+}
+.taskListItem {
+
+  background-color: rgb(255, 255, 255);
+  width: 95%;
+  margin: 5px;
+  padding: 15px;
   box-shadow: 5 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
+  overflow: hidden;
+}
+
+.taskListItem_wrapper {
+display: grid;
+grid-template-rows: 100;
+transition: .3s;
+}
+.taskListItem_wrapper_selected {
+display: grid;
+grid-template-rows: 200;
+transition: .3s;
+}
+
+/* want to use grid template rows */
+
+.taskListTitle {
+font-weight: bolder;
 }

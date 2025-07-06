@@ -5,7 +5,7 @@
     "startDate": "2025-07-01",
     "dueDate": "2025-07-10",
     "status": "In Progress",
-    "lead": "A",
+    "lead": "GR",
     "category": "Design",
     "notes" : ["Note about task", "Another note about task", "A final note about task"]
   },
@@ -15,7 +15,7 @@
     "startDate": "2025-07-03",
     "dueDate": "2025-07-07",
     "status": "Not Started",
-    "lead": "B",
+    "lead": "MJ",
     "category": "Content",
     "notes" : ["Note about task", "Another note about task", "A final note about task"]
   },
@@ -25,7 +25,7 @@
     "startDate": "2025-07-05",
     "dueDate": "2025-07-06",
     "status": "Complete",
-    "lead": "C",
+    "lead": "CA",
     "category": "Development",
     "notes" : ["Note about task", "Another note about task", "A final note about task"]
   },
@@ -35,7 +35,7 @@
     "startDate": "2025-07-02",
     "dueDate": "2025-07-08",
     "status": "In Progress",
-    "lead": "A",
+    "lead": "GR",
     "category": "Marketing",
     "notes" : ["Note about task", "Another note about task", "A final note about task"]
   },
@@ -45,7 +45,7 @@
     "startDate": "2025-07-06",
     "dueDate": "2025-07-12",
     "status": "Not Started",
-    "lead": "B",
+    "lead": "MJ",
     "category": "QA",
     "notes" : ["Note about task", "Another note about task", "A final note about task"]
   },
@@ -55,7 +55,7 @@
     "startDate": "2025-07-01",
     "dueDate": "2025-07-09",
     "status": "Complete",
-    "lead": "C",
+    "lead": "CA",
     "category": "UX",
     "notes" : ["Note about task", "Another note about task", "A final note about task"]
   },
@@ -65,7 +65,7 @@
     "startDate": "2025-07-04",
     "dueDate": "2025-07-15",
     "status": "In Progress",
-    "lead": "A",
+    "lead": "GR",
     "category": "Development",
     "notes" : ["Note about task", "Another note about task", "A final note about task"]
   },
@@ -75,7 +75,7 @@
     "startDate": "2025-07-03",
     "dueDate": "2025-07-05",
     "status": "Not Started",
-    "lead": "B",
+    "lead": "MJ",
     "category": "Marketing",
     "notes" : ["Note about task", "Another note about task", "A final note about task"]
   },
@@ -85,7 +85,7 @@
     "startDate": "2025-07-07",
     "dueDate": "2025-07-09",
     "status": "In Progress",
-    "lead": "C",
+    "lead": "CA",
     "category": "Operations",
     "notes" : ["Note about task", "Another note about task", "A final note about task"]
   },
@@ -95,7 +95,7 @@
     "startDate": "2025-07-06",
     "dueDate": "2025-07-11",
     "status": "Not Started",
-    "lead": "A",
+    "lead": "GR",
     "category": "QA",
     "notes" : ["Note about task", "Another note about task", "A final note about task"]
   },
@@ -105,7 +105,7 @@
     "startDate": "2025-07-04",
     "dueDate": "2025-07-10",
     "status": "In Progress",
-    "lead": "B",
+    "lead": "MJ",
     "category": "Product",
     "notes" : ["Note about task", "Another note about task", "A final note about task"]
   },
@@ -115,7 +115,7 @@
     "startDate": "2025-07-05",
     "dueDate": "2025-07-06",
     "status": "Complete",
-    "lead": "C",
+    "lead": "CA",
     "category": "IT",
     "notes" : ["Note about task", "Another note about task", "A final note about task"]
   },
@@ -125,7 +125,7 @@
     "startDate": "2025-07-08",
     "dueDate": "2025-07-14",
     "status": "Not Started",
-    "lead": "A",
+    "lead": "GR",
     "category": "Marketing",
     "notes" : ["Note about task", "Another note about task", "A final note about task"]
   },
@@ -135,7 +135,7 @@
     "startDate": "2025-07-09",
     "dueDate": "2025-07-11",
     "status": "In Progress",
-    "lead": "B",
+    "lead": "MJ",
     "category": "QA",
     "notes" : ["Note about task", "Another note about task", "A final note about task"]
   },
@@ -145,7 +145,7 @@
     "startDate": "2025-07-10",
     "dueDate": "2025-07-10",
     "status": "Complete",
-    "lead": "C",
+    "lead": "CA",
     "category": "Product",
     "notes" : ["Note about task", "Another note about task", "A final note about task"]
   }
