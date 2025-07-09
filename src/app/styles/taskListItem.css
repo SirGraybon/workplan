@@ -1,49 +1,98 @@
 
 .taskList {
- 
+ display: flex;
+ width: 100%;
+ align-self: center;
+ flex-direction: column;
   width: 900px; 
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
 } 
 
+.taskListItem_wrapper {
+display: grid;
+grid-template-rows: 75;
+transition: .3s;
+cursor: pointer;
+box-shadow: 5 4px 8px rgba(0, 0, 0, 0.1);
+background-color: rgb(255, 255, 255);
+/* width: 95%; */
+margin: 5px;
+padding: 15px;
+border-radius: 12px;
+overflow: hidden;
+}
 
+.taskListItem {
 
-.taskListHeader {
-  display: flex;
-  justify-content: space-between;
 
 }
+
+
+.taskListItem_Header {
+  display: flex;
+  justify-content: space-between;
+  
+}
 .taskListInfo {
+  width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: end;
-
+  align-items: flex-end;
+  
 }
-.taskListItem {
+.taskListItem_Notes {
+  padding-left: 25px;
+  padding-top: 5px;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(239, 239, 239);
+  box-shadow: inset 1px 1px 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+ 	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.1s;
 
+  /* transition: 1s; */
+  
+  
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.taskListItem_User {
+  display: flex;
+  background-color: orange;
+  width: 50px;
+  height: 50px;
+  border-radius: 100;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskListItem_wrapper_selected {
+  display: grid;
+  grid-template-rows: 200;
+  transition: .4s;
+  cursor: pointer;
+  box-shadow: 5 4px 8px rgba(0, 0, 0, 0.1);
   background-color: rgb(255, 255, 255);
-  width: 95%;
   margin: 5px;
   padding: 15px;
-  box-shadow: 5 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   overflow: hidden;
-}
-
-.taskListItem_wrapper {
-display: grid;
-grid-template-rows: 100;
-transition: .3s;
-}
-.taskListItem_wrapper_selected {
-display: grid;
-grid-template-rows: 200;
-transition: .3s;
 }
 
 /* want to use grid template rows */
 
 .taskListTitle {
-font-weight: bolder;
+  font-weight: bolder;
 }
