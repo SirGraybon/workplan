@@ -7,63 +7,100 @@
     "status": "In Progress",
     "lead": "GR",
     "category": "Design",
-    "notes" : ["Note about task", "Another note about task", "A final note about task", "Note about task", "Another note about task", "A final note about task"],
-    "ID" : "001"
+    "notes": [
+      "Clarify expectations with the project lead before kickoff.",
+      "Check for existing templates or resources to save time.",
+      "Coordinate with the design team for visual assets.",
+      "Test on both desktop and mobile before final review.",
+      "Add follow-up task to track post-launch feedback."
+
+    ],
+    "ID": "001"
   },
   {
     "title": "Write Blog Post",
     "description": "Draft a post about the latest product updates.",
     "startDate": "2025-07-03",
-    "dueDate": "2025-07-07",
+    "dueDate": "2025-08-07",
     "status": "Not Started",
     "lead": "MJ",
     "category": "Content",
-    "notes" : ["Note about task", "Another note about task", "A final note about task"],
-    "ID" : "002"
+    "notes": [
+      "Clarify expectations with the project lead before kickoff.",
+      "Check for existing templates or resources to save time.",
+      "Coordinate with the design team for visual assets.",
+      "Test on both desktop and mobile before final review.",
+      "Add follow-up task to track post-launch feedback."
+    ],
+    "ID": "002"
   },
   {
     "title": "Code Review",
     "description": "Review pull requests from the development team.",
     "startDate": "2025-07-05",
-    "dueDate": "2025-07-06",
+    "dueDate": "2025-009-06",
     "status": "Complete",
     "lead": "CA",
     "category": "Development",
-    "notes" : ["Note about task", "Another note about task", "A final note about task"],
-    "ID" : "003"
+    "notes": [
+      "Clarify expectations with the project lead before kickoff.",
+      "Check for existing templates or resources to save time.",
+      "Coordinate with the design team for visual assets.",
+      "Test on both desktop and mobile before final review.",
+      "Add follow-up task to track post-launch feedback."
+    ],
+    "ID": "003"
   },
   {
     "title": "Set Up Analytics",
     "description": "Integrate Google Analytics into the marketing site.",
     "startDate": "2025-07-02",
-    "dueDate": "2025-07-08",
+    "dueDate": "2025-10-08",
     "status": "In Progress",
     "lead": "GR",
     "category": "Marketing",
-    "notes" : ["Note about task", "Another note about task", "A final note about task"],
-    "ID" : "004"
+    "notes": [
+      "Clarify expectations with the project lead before kickoff.",
+      "Check for existing templates or resources to save time.",
+      "Coordinate with the design team for visual assets.",
+      "Test on both desktop and mobile before final review.",
+      "Add follow-up task to track post-launch feedback."
+    ],
+    "ID": "004"
   },
   {
     "title": "QA Testing",
     "description": "Perform final quality checks before product launch.",
     "startDate": "2025-07-06",
-    "dueDate": "2025-07-12",
+    "dueDate": "2025-11-12",
     "status": "Not Started",
     "lead": "MJ",
     "category": "QA",
-    "notes" : ["Note about task", "Another note about task", "A final note about task"],
-    "ID" : "005"
+    "notes": [
+      "Clarify expectations with the project lead before kickoff.",
+      "Check for existing templates or resources to save time.",
+      "Coordinate with the design team for visual assets.",
+      "Test on both desktop and mobile before final review.",
+      "Add follow-up task to track post-launch feedback."
+    ],
+    "ID": "005"
   },
   {
     "title": "User Research",
     "description": "Interview 5 users to gather feedback on the new feature.",
     "startDate": "2025-07-01",
-    "dueDate": "2025-07-09",
+    "dueDate": "2025-12-09",
     "status": "Complete",
     "lead": "CA",
     "category": "UX",
-    "notes" : ["Note about task", "Another note about task", "A final note about task"],
-    "ID" : "006"
+    "notes": [
+      "Clarify expectations with the project lead before kickoff.",
+      "Check for existing templates or resources to save time.",
+      "Coordinate with the design team for visual assets.",
+      "Test on both desktop and mobile before final review.",
+      "Add follow-up task to track post-launch feedback."
+    ],
+    "ID": "006"
   },
   {
     "title": "Backend API Refactor",
@@ -73,8 +110,14 @@
     "status": "In Progress",
     "lead": "GR",
     "category": "Development",
-    "notes" : ["Note about task", "Another note about task", "A final note about task"],
-    "ID" : "007"
+    "notes": [
+      "Clarify expectations with the project lead before kickoff.",
+      "Check for existing templates or resources to save time.",
+      "Coordinate with the design team for visual assets.",
+      "Test on both desktop and mobile before final review.",
+      "Add follow-up task to track post-launch feedback."
+    ],
+    "ID": "007"
   },
   {
     "title": "Create Social Media Assets",
@@ -84,8 +127,14 @@
     "status": "Not Started",
     "lead": "MJ",
     "category": "Marketing",
-    "notes" : ["Note about task", "Another note about task", "A final note about task"],
-    "ID" : "008"
+    "notes": [
+      "Clarify expectations with the project lead before kickoff.",
+      "Check for existing templates or resources to save time.",
+      "Coordinate with the design team for visual assets.",
+      "Test on both desktop and mobile before final review.",
+      "Add follow-up task to track post-launch feedback."
+    ],
+    "ID": "008"
   },
   {
     "title": "Internal Demo Prep",
@@ -95,8 +144,14 @@
     "status": "In Progress",
     "lead": "CA",
     "category": "Operations",
-    "notes" : ["Note about task", "Another note about task", "A final note about task"],
-    "ID" : "009"
+    "notes": [
+      "Clarify expectations with the project lead before kickoff.",
+      "Check for existing templates or resources to save time.",
+      "Coordinate with the design team for visual assets.",
+      "Test on both desktop and mobile before final review.",
+      "Add follow-up task to track post-launch feedback."
+    ],
+    "ID": "009"
   },
   {
     "title": "Accessibility Audit",
@@ -106,8 +161,14 @@
     "status": "Not Started",
     "lead": "GR",
     "category": "QA",
-    "notes" : ["Note about task", "Another note about task", "A final note about task"],
-    "ID" : "010"
+    "notes": [
+      "Clarify expectations with the project lead before kickoff.",
+      "Check for existing templates or resources to save time.",
+      "Coordinate with the design team for visual assets.",
+      "Test on both desktop and mobile before final review.",
+      "Add follow-up task to track post-launch feedback."
+    ],
+    "ID": "010"
   },
   {
     "title": "Onboarding Flow Update",
@@ -117,8 +178,14 @@
     "status": "In Progress",
     "lead": "MJ",
     "category": "Product",
-    "notes" : ["Note about task", "Another note about task", "A final note about task"],
-    "ID" : "011"
+    "notes": [
+      "Clarify expectations with the project lead before kickoff.",
+      "Check for existing templates or resources to save time.",
+      "Coordinate with the design team for visual assets.",
+      "Test on both desktop and mobile before final review.",
+      "Add follow-up task to track post-launch feedback."
+    ],
+    "ID": "011"
   },
   {
     "title": "Security Patch Deployment",
@@ -128,8 +195,14 @@
     "status": "Complete",
     "lead": "CA",
     "category": "IT",
-    "notes" : ["Note about task", "Another note about task", "A final note about task"],
-    "ID" : "012"
+    "notes": [
+      "Clarify expectations with the project lead before kickoff.",
+      "Check for existing templates or resources to save time.",
+      "Coordinate with the design team for visual assets.",
+      "Test on both desktop and mobile before final review.",
+      "Add follow-up task to track post-launch feedback."
+    ],
+    "ID": "012"
   },
   {
     "title": "Email Campaign Setup",
@@ -139,8 +212,14 @@
     "status": "Not Started",
     "lead": "GR",
     "category": "Marketing",
-    "notes" : ["Note about task", "Another note about task", "A final note about task"],
-    "ID" : "014"
+    "notes": [
+      "Clarify expectations with the project lead before kickoff.",
+      "Check for existing templates or resources to save time.",
+      "Coordinate with the design team for visual assets.",
+      "Test on both desktop and mobile before final review.",
+      "Add follow-up task to track post-launch feedback."
+    ],
+    "ID": "014"
   },
   {
     "title": "Performance Testing",
@@ -150,8 +229,14 @@
     "status": "In Progress",
     "lead": "MJ",
     "category": "QA",
-    "notes" : ["Note about task", "Another note about task", "A final note about task"],
-    "ID" : "015"
+    "notes": [
+      "Clarify expectations with the project lead before kickoff.",
+      "Check for existing templates or resources to save time.",
+      "Coordinate with the design team for visual assets.",
+      "Test on both desktop and mobile before final review.",
+      "Add follow-up task to track post-launch feedback."
+    ],
+    "ID": "015"
   },
   {
     "title": "Sprint Planning",
@@ -161,7 +246,155 @@
     "status": "Complete",
     "lead": "CA",
     "category": "Product",
-    "notes" : ["Note about task", "Another note about task", "A final note about task"],
-    "ID" : "016"
+    "notes": [
+      "Clarify expectations with the project lead before kickoff.",
+      "Check for existing templates or resources to save time.",
+      "Coordinate with the design team for visual assets.",
+      "Test on both desktop and mobile before final review.",
+      "Add follow-up task to track post-launch feedback."
+    ],
+    "ID": "016"
+  },
+  {
+    "title": "Feature Rollout Planning",
+    "description": "Coordinate with stakeholders on feature launch timeline.",
+    "startDate": "2025-08-01",
+    "dueDate": "2025-08-05",
+    "status": "In Progress",
+    "lead": "GR",
+    "category": "Product",
+    "notes": [
+      "Coordinate with design",
+      "Finalize timeline"
+    ],
+    "ID": "017"
+  },
+  {
+    "title": "Customer Survey Analysis",
+    "description": "Compile and report on Q2 customer feedback.",
+    "startDate": "2025-08-03",
+    "dueDate": "2025-08-10",
+    "status": "Not Started",
+    "lead": "MJ",
+    "category": "Research",
+    "notes": [
+      "Review raw data",
+      "Create summary charts"
+    ],
+    "ID": "018"
+  },
+  {
+    "title": "Marketing Budget Review",
+    "description": "Review Q3 marketing spend and ROI.",
+    "startDate": "2025-09-01",
+    "dueDate": "2025-09-04",
+    "status": "In Progress",
+    "lead": "CA",
+    "category": "Finance",
+    "notes": [
+      "Pull budget report",
+      "Present at exec meeting"
+    ],
+    "ID": "019"
+  },
+  {
+    "title": "System Monitoring Setup",
+    "description": "Deploy server uptime and alerting tools.",
+    "startDate": "2025-09-07",
+    "dueDate": "2025-09-10",
+    "status": "Not Started",
+    "lead": "GR",
+    "category": "IT",
+    "notes": [
+      "Check AWS tools",
+      "Configure Grafana"
+    ],
+    "ID": "020"
+  },
+  {
+    "title": "Legal Compliance Review",
+    "description": "Ensure product aligns with updated data laws.",
+    "startDate": "2025-10-01",
+    "dueDate": "2025-10-15",
+    "status": "In Progress",
+    "lead": "MJ",
+    "category": "Legal",
+    "notes": [
+      "Review checklist",
+      "Consult legal team"
+    ],
+    "ID": "021"
+  },
+  {
+    "title": "Halloween Campaign Launch",
+    "description": "Design and launch Halloween-themed marketing campaign.",
+    "startDate": "2025-10-10",
+    "dueDate": "2025-10-20",
+    "status": "Not Started",
+    "lead": "CA",
+    "category": "Marketing",
+    "notes": [
+      "Write copy",
+      "Create visuals",
+      "Schedule posts"
+    ],
+    "ID": "022"
+  },
+  {
+    "title": "Black Friday Prep",
+    "description": "Plan infrastructure and promotions for Black Friday.",
+    "startDate": "2025-11-01",
+    "dueDate": "2025-11-10",
+    "status": "In Progress",
+    "lead": "GR",
+    "category": "Sales",
+    "notes": [
+      "Review 2024 results",
+      "Draft offers"
+    ],
+    "ID": "023"
+  },
+  {
+    "title": "Year-End Financial Audit",
+    "description": "Prepare financial documents for year-end audit.",
+    "startDate": "2025-11-15",
+    "dueDate": "2025-11-30",
+    "status": "Not Started",
+    "lead": "MJ",
+    "category": "Finance",
+    "notes": [
+      "Double-check statements",
+      "Contact external auditor"
+    ],
+    "ID": "024"
+  },
+  {
+    "title": "Holiday Content Creation",
+    "description": "Design festive content for December campaigns.",
+    "startDate": "2025-12-01",
+    "dueDate": "2025-12-10",
+    "status": "Complete",
+    "lead": "CA",
+    "category": "Content",
+    "notes": [
+      "Include all brand colors",
+      "Use holiday-themed visuals"
+    ],
+    "ID": "025"
+  },
+  {
+    "title": "Q1 2026 Planning",
+    "description": "Plan major initiatives for the next quarter.",
+    "startDate": "2025-12-05",
+    "dueDate": "2025-12-20",
+    "status": "In Progress",
+    "lead": "GR",
+    "category": "Strategy",
+    "notes": [
+      "Set KPIs",
+      "Draft roadmap",
+      "Present to leadership"
+    ],
+    "ID": "026"
   }
 ]

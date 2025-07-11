@@ -7,7 +7,14 @@
   width: 900px; 
   /* align-items: center; */
   justify-content: center;
+  /* padding: 100px; */
 } 
+.dateHeader {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: x-large;
+  font-weight: 100;
+}
 
 .taskListItem_wrapper {
 display: grid;
@@ -18,7 +25,7 @@ box-shadow: 5 4px 8px rgba(0, 0, 0, 0.1);
 background-color: rgb(255, 255, 255);
 /* width: 95%; */
 margin: 5px;
-padding: 15px;
+padding: 20px;
 border-radius: 12px;
 overflow: hidden;
 }
@@ -47,7 +54,7 @@ overflow: hidden;
   padding-top: 5px;
   margin-top: 5px;
   padding-bottom: 5px;
-  background-color: rgb(239, 239, 239);
+  background-color: #d8c2c2;
   box-shadow: inset 1px 1px 5px 0 rgba(0, 0, 0, 0.1);
   border-radius: 12px;
  	opacity: 1;
@@ -55,6 +62,7 @@ overflow: hidden;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: 0.1s;
+  max-width: 50%;
 
   /* transition: 1s; */
   
@@ -86,11 +94,15 @@ overflow: hidden;
   box-shadow: 5 4px 8px rgba(0, 0, 0, 0.1);
   background-color: rgb(255, 255, 255);
   margin: 5px;
-  padding: 15px;
+  padding: 20px;
   border-radius: 12px;
   overflow: hidden;
 }
+.taskListAdditionalContent {
+display: flex;
+justify-content: space-between;
 
+}
 /* want to use grid template rows */
 
 .taskListTitle {

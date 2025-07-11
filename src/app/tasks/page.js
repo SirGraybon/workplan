@@ -1,27 +1,38 @@
-"use client"
-//IMPORTs
-import data from '@/data/data.json'
-import taskListItem from '../taskListItem'
+"use client";
+import data from '@/data/data.json';
+import taskListItem from '../taskListItem';
 import '@/app/styles/taskListItem.css';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
-//Function Export
 export default function Tasks() {
+  const [taskListData, updateTaskListData] = useState(
+    [...data].sort((a, b) => new Date(a.dueDate) - new Date(b.dueDate))
+  );
+  const [selectedTask, setSelectedTask] = useState(null);
 
-// State Management
-const [taskListData, updateTaskListData] = useState(data)
-const [selectedTask, setSelectedTask] = useState()
+  let lastMonth = ""; // Track last seen month for headings
 
-selectedTask && console.log(selectedTask.ID)
-  const taskList = taskListData.map((task, index) =>
-    <div key={index} onClick={ () =>setSelectedTask(task)}>
-      {taskListItem(task, selectedTask, index)}
+  const taskList = taskListData.map((task, index) => {
+    const taskDate = new Date(task.dueDate);
+    const currentMonth = taskDate.toLocaleString('default', { month: 'long' });
+
+    const showHeading = currentMonth !== lastMonth;
+    lastMonth = currentMonth;
+
+    return (
+      <div key={index}>
+        {showHeading && <h2 className="dateHeader">{currentMonth}</h2>}
+
+        <div onClick={() => setSelectedTask(task)}>
+          {taskListItem(task, selectedTask, index, updateTaskListData, taskListData)}
+        </div>
       </div>
-)
+    );
+  });
 
-  return(
-  <>
-  <section className='taskList'>{taskList}</section>
-  </>
-)
+  return (
+    <section className="taskList">
+      {taskList}
+    </section>
+  );
 }

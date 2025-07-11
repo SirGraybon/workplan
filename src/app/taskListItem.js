@@ -1,11 +1,19 @@
 import '@/app/styles/taskListItem.css';
 
-export default function taskListItem(task, selectedTask, index) {
+export default function taskListItem(task, selectedTask, index, updateTaskListData, taskListData) {
+const setComplete = (id) => {
+  updateTaskListData(prevData =>
+    prevData.map(task =>
+      task.ID === id ? { ...task, status: "Complete" } : task
+    )
+  )};
+
   return(
 
-
-    <div className={selectedTask && selectedTask.ID === task.ID ? "taskListItem_wrapper_selected" : "taskListItem_wrapper"  }>
-    <div className='taskListItem' >
+    <div className={selectedTask && selectedTask.ID === task.ID ? "taskListItem_wrapper_selected" : "taskListItem_wrapper"} 
+      style={task.status === "Complete" ? {backgroundColor: "#c2e48f"} : {}}
+     >
+    <div className='taskListItem'   >
       <section className="taskListItem_Header">
         <div className='taskListTitleCard'>
           <h1 className='taskListTitle'>{task.title}</h1>
@@ -18,7 +26,7 @@ export default function taskListItem(task, selectedTask, index) {
         </div>
       </section>
        {selectedTask && selectedTask.ID === task.ID && 
-      <section>
+      <section className='taskListAdditionalContent'>
 
        <ul className='taskListItem_Notes'>
         {task.notes.map((note, index) => {
@@ -26,7 +34,7 @@ export default function taskListItem(task, selectedTask, index) {
         })
       }
       </ul>
-      <button onClick={()=> selectedTask.status = "Complete"}> done!</button>
+      <button className='doneButton' onClick={()=> setComplete(task.ID)}> done!</button>
       </section>
       }
 
